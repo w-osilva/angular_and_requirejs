@@ -1,0 +1,3 @@
+define([
+    './ng-smile'
+], function () {});

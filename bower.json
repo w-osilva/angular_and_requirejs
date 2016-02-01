@@ -1,0 +1,32 @@
+{
+  "name": "angular_and_requirejs",
+  "version": "0.0.0",
+  "authors": [
+    "Washington Silva <w-osilva@hotmail.com>"
+  ],
+  "description": "Test Application",
+  "main": "require-main.js",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "requirejs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular" : "~1.5.0",
+    "angular-route": "~1.5.0",
+    "angular-sanitize": "~1.5.0",
+    "angular-resource": "~1.5.0",
+    "ng-module": "~0.0.3",
+    "jquery": "~2.1.1",
+    "requirejs": "latest",
+    "requirejs-domready": "latest"
+  }
+}

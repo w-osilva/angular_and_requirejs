@@ -1,0 +1,21 @@
+<h3>{{ title }}</h3>
+
+<div>
+    Here use a function in controller.scope ==>
+    <button ng-click="sayHello()">Say hello</button>
+</div>
+
+<div>
+    Here use a directive ==>
+    <ng-smile></ng-smile>
+</div>
+
+<div>
+    Here use a filter ==>
+    <input type="text" ng-model="textToFilter"> {{ textToFilter | consonants }}
+</div>
+
+<div>
+    Here use a service ==> {{ timeNow }}
+
+</div>
